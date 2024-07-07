@@ -1,0 +1,512 @@
+repo_name: seanodera/appwrite
+report_id: 4876946e539bef818687909fb1715cb0
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-07T22:09:34+00:00'
+requested_by: eldadfux
+provider: github
+branch: master
+detected_tools_count: 39
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/seanodera/appwrite
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/seanodera/appwrite
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: eldadfux
+  last_updated_on: 2019-05-09 06:54:39.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 3.8.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2022-08-14 16:09:36.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/app/preload.php
+  detection_source: app/preload.php
+  last_updated_by: Eldad Fux
+  last_updated_on: 2021-05-03 21:05:25.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: eldadfux
+  last_updated_on: 2019-05-09 06:54:39.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: '6.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: Dockerfile
+  last_updated_by: kodumbeats
+  last_updated_on: 2021-09-01 19:05:50.000000000 Z
+- name: Chronograf
+  description: It is the user interface and administrative component
+  website_url: https://www.influxdata.com/time-series-platform/chronograf/
+  version: '1.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/9371/YwbWN39g_400x400.jpg
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Matej Bačo
+  last_updated_on: 2022-03-16 10:11:04.000000000 Z
+- name: Composer
+  description: Dependency Manager for PHP
+  website_url: https://getcomposer.org/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/1688/New_Project__65_.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Matej Bačo
+  last_updated_on: 2022-06-10 11:37:39.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/seanodera/appwrite
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Bradley Schofield
+  last_updated_on: 2021-08-24 09:32:27.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/seanodera/appwrite
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: Eldad A. Fux
+  last_updated_on: 2020-09-10 10:07:28.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: eldadfux
+  last_updated_on: 2019-05-09 06:54:39.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.20
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: eldadfux
+  last_updated_on: 2019-05-09 06:54:39.000000000 Z
+- name: Telegraf
+  description: The plugin-driven server agent for collecting &amp; reporting metrics
+  website_url: https://www.influxdata.com/time-series-platform/telegraf/
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/4480/YwbWN39g_400x400.jpg
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Matej Bačo
+  last_updated_on: 2022-03-16 10:11:04.000000000 Z
+- name: Traefik
+  description: The Cloud Native Edge Router
+  website_url: https://traefik.io/
+  version: '2.7'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Load Balancer / Reverse Proxy
+  image_url: https://img.stackshare.io/service/5126/default_0a34be001ec8247c641508aa468564fb386bc50c.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-04-20 14:55:25.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2021-10-21 17:26:13.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: eldadfux
+  last_updated_on: 2019-05-09 06:54:39.000000000 Z
+- name: Google App Engine
+  description: Build web applications on the same scalable systems that power Google
+    applications
+  website_url: https://developers.google.com/appengine
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/139/s01TMTGn.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Eldad Fux
+  last_updated_on: 2021-01-16 15:10:20.000000000 Z
+- name: iDoneThis
+  description: Easy daily check-ins and powerful progress reports to run more effective
+    and productive teams
+  website_url: https://idonethis.com/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Team Task Management
+  image_url: https://img.stackshare.io/service/338/default_f863a3d7f927a74d6ae21e8e152265bd07ca6cfe.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Eldad Fux
+  last_updated_on: 2020-12-16 21:54:58.000000000 Z
+- name: Adminer
+  description: Full-featured database management tool written in PHP.
+  website_url: https://www.adminer.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7285/icon.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Damodar Lohani
+  last_updated_on: 2022-06-22 10:51:49.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: kodumbeats
+  last_updated_on: 2021-10-21 14:25:12.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2021-09-30 10:32:10.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2022-05-09 03:14:52.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/seanodera/appwrite
+  detection_source: Repo Metadata
+- name: dragonmantank/cron-expression
+  description: 'CRON for PHP: Calculate the next or previous run date and determine
+    if a CRON expression is due'
+  package_url: https://packagist.org/dragonmantank/cron-expression
+  version: 3.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-03-01 17:55:36.000000000 Z
+- name: influxdb/influxdb-php
+  description: InfluxDB client library for PHP
+  package_url: https://packagist.org/influxdb/influxdb-php
+  version: 1.15.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Damodar Lohani
+  last_updated_on: 2022-08-02 01:15:56.000000000 Z
+- name: phpmailer/phpmailer
+  description: PHPMailer is a full-featured email creation and transfer class for
+    PHP
+  package_url: https://packagist.org/phpmailer/phpmailer
+  version: 6.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-07-08 15:17:20.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.20
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-07-08 15:17:20.000000000 Z
+- name: squizlabs/php_codesniffer
+  description: PHP_CodeSniffer tokenizes PHP
+  package_url: https://packagist.org/squizlabs/php_codesniffer
+  version: 3.7.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-07-08 15:17:20.000000000 Z
+- name: swoole/ide-helper
+  description: IDE help files for Swoole
+  package_url: https://packagist.org/swoole/ide-helper
+  version: 4.8.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-04-20 14:55:04.000000000 Z
+- name: textalk/websocket
+  description: WebSocket client and server
+  package_url: https://packagist.org/textalk/websocket
+  version: 1.5.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-06-01 14:39:12.000000000 Z
+- name: gulp-clean-css
+  description: Minify css with clean-css
+  package_url: https://www.npmjs.com/gulp-clean-css
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16301/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2021-10-21 17:26:13.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2021-10-21 17:26:13.000000000 Z
+- name: gulp-less
+  description: Less for Gulp
+  package_url: https://www.npmjs.com/gulp-less
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16267/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2021-10-21 17:26:13.000000000 Z
+- name: markdown-it
+  description: Markdown-it - modern pluggable markdown parser
+  package_url: https://www.npmjs.com/markdown-it
+  version: 12.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16277/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-01-18 13:35:12.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2022-05-09 03:14:52.000000000 Z
+- name: turndown
+  description: A library that converts HTML to Markdown
+  package_url: https://www.npmjs.com/turndown
+  version: 7.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/seanodera/appwrite/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-01-18 13:35:12.000000000 Z
